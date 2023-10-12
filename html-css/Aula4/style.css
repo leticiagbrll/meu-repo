@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 230, 0);
+}
+
+p {
+    
+}
+
+section#introducao {
+    color: blueviolet;
+} 
+
+.secao2 {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+.titulo {
+    color: red;
+}
+
+.paragrafo {
+    color: black;
+}
+
+.div1{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+
+.div2{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+}
+
+.par1{
+    background-color: rgb(255, 192, 203);
+    padding-bottom: 50px;
+}
+/*PADDING - EXPANSÃO DO INTERIOR - POSSO USAR ACOMPANHADA DE TOP, LEFT, BOTTOM ETC. DÁ RESPIRO (ESPAÇAMENTO) INTERNO*/
+/*MARGIN - ESPAÇAMENTO EXTERNO - EXPANSÃO DO EXTERIOR. TAMBÉM POSSO USAR ACOMPANHADO DE TOP, LEFT, BOTTOM, ETC*/
+
+.par2{
+    background-color: brown;
+}
+
+button{
+    background-color: turquoise;
+    color: yellow;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
