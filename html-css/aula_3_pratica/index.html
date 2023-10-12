@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Letícia Fashion House</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <p>
+                    <strong>Letícia Fashion House</strong>
+                </p>
+                <p>
+                    <small>Último login em: 09/10/2023 às 10h30</small>
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#inicio">
+                            <i class="fa-solid fa-house"></i>
+                            Início                       
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#clientes">
+                            <i class="fa-solid fa-user"></i>
+                            Nossos Clientes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#pedidos">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            Pedidos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#faleconosco">
+                            <i class="fa-solid fa-at"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <h1>Nova Coleção</h1>
+                <h2>Ganhe <b>10% off</b> na primeira compra!</h2>
+
+                <ol>
+                   <li>
+                    <figure>
+                        <img src="./img/1.jpg" alt="Mulher preta sorrindo, veste blazer de alfaiataria laranja com pedrarias e turbante de mesma cor e tecido"/>
+                    </figure>
+                   </li>
+                   <li>
+                    <figure>
+                        <img src="./img/2.jpg" alt="Mulher preta veste conjunto de top e saia branca"/>
+                    </figure>
+                   </li>
+                   <li>
+                    <figure>
+                        <img src="./img/3.jpg" alt="Mulher preta em um conjunto de blusa e calça em cetim (tons terrosos)"/>
+                    </figure>
+                   </li>
+                   <li>
+                    <figure>
+                        <img src="./img/4.jpg" alt="Mulher preta em um vestido de manga longa, com estampas que remetem à natureza"/>
+                    </figure>
+                   </li> 
+                </ol>
+                <a href="https://cea.com.br" target="_blank">Clique aqui para conferir!</a>
+            </section>
+            <section id="clientes">
+                <h3>
+                    Nossos Clientes
+                </h3>
+                <article>
+                    <h4>Eliana Souza</h4>
+                    <h5><i>Avaliado em 06/10/2023</i></h5>
+                    <p>
+                        Estou completamente satisfeita com minha compra!<br/>
+                        A entrega foi rápida e os produtos vieram bem embalados!<br/>
+                        É a primeira vez que compro nessa loja e o que mais gostei é a variedade de tamanhos!
+                    </p>
+                </article>
+                <article>
+                    <h4>Keisyanne Moura</h4>
+                    <h5><i>Avaliado em 06/10/2023</i></h5>
+                    <p>
+                        Estou completamente satisfeita com minha compra!<br/>
+                        A entrega foi rápida e os produtos vieram bem embalados!<br/>
+                        É a primeira vez que compro nessa loja e o que mais gostei é a variedade de tamanhos!
+                    </p>
+                </article>
+                <article>
+                    <h4>Thais Martins</h4>
+                    <h5><i>Avaliado em 06/10/2023</i></h5>
+                    <p>
+                        Estou completamente satisfeita com minha compra!<br/>
+                        A entrega foi rápida e os produtos vieram bem embalados!<br/>
+                        É a primeira vez que compro nessa loja e o que mais gostei é a variedade de tamanhos!
+                    </p>
+                </article>
+            </section>
+            <section id="pedidos">
+                <h3>
+                    Pedidos
+                </h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Valor (R$)</th>
+                            <th>Data da Compra</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Blazer laranja</td>
+                            <td>2</td>
+                            <td>90,00</td>
+                            <td>05/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Conjunto branco</td>
+                            <td>3</td>
+                            <td>60,00</td>
+                            <td>06/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Conjunto em tons terrosos</td>
+                            <td>1</td>
+                            <td>35,00</td>
+                            <td>06/10/2023</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Vestido de manga comprida</td>
+                            <td>2</td>
+                            <td>120,00</td>
+                            <td>06/10/2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="faleconosco">
+                <h3>
+                    Fale Conosco
+                </h3>
+
+                <form>
+                    <label>Nome:</label>
+                    <input type="text" id="nome" placeholder="Digite o seu nome"/>
+                    <br/>
+
+                    <label>E-mail:</label>
+                    <input type="email" id="email" placeholder="Digite o seu e-mail"/>
+                    <br/>
+
+                    <label>Mensagem:</label>
+                    <textarea id="mensagem"></textarea>
+                    <br/>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy; Copyright | 2023 | Todos os direitos reservados.
+            </p>
+        </footer>
+    
+    </body>
+</html>
